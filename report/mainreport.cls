@@ -47,7 +47,7 @@
 \newcommand{\changefont}{\fontsize{12}{12}\selectfont}
 \fancypagestyle{plain}{
 \fancyfoot[C]{\thepage \changefont}
-\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0.5pt}
 }
 
