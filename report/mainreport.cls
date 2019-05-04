@@ -93,18 +93,15 @@
 \normalsize {A PROJECT REPORT}\\
 
 \vspace{0.5cm}
-Submitted By \\
+submitted By \\
 \vspace{.5cm}
 \rm
 {\normalsize \bf {ASWIN BABU K}}\\
 
-\vspace{1cm}
-{\tt{Guided By}} \\
+\vspace{0.5cm}
+{\bf{to}} \\
 
-\vspace{.5cm}
-\hspace{.05cm} 
-{\normalsize \bf {Prof. Baby Syla L}}\\
-{\normalsize \bf {Assistant Professor}}\\
+\vspace{0.5cm}
 
 \vspace{1cm}
 {\bf Department of Computer Applications \\ 
