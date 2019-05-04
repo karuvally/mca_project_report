@@ -1,0 +1,51 @@
+%    Copyright (C) 2012  Govt. Engineering College, Thrissur
+%
+%	Author : Jain Basil Aliyas <jainbasil@gmail.com>
+%		 Anoop Toffy <anoop.toffy90@gmail.com>
+%
+%    This program is free software: you can redistribute it and/or modify
+%    it under the terms of the GNU General Public License as published by
+%    the Free Software Foundation, either version 3 of the License, or
+%    (at your option) any later version.
+%
+%    This program is distributed in the hope that it will be useful,
+%    but WITHOUT ANY WARRANTY; without even the implied warranty of
+%    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%    GNU General Public License for more details.
+%
+%    You should have received a copy of the GNU General Public License
+%    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+\documentclass{mainreport}
+\usepackage{hyperref}
+\usepackage{sectsty}
+\chapterfont{\centering}
+\usepackage{makeidx}
+\usepackage{indentfirst}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\bibliographystyle{unsrt}
+
+\begin{document}
+
+\maketitle
+\include{certificate}
+\include{abstract}
+\include{acknowledgement}
+\tableofcontents
+
+\newpage
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
+
+\newpage
+\pagenumbering{arabic}
+\include{introduction}
+\include{requirements}
+\include{design}
+\include{coding}
+\include{testing}
+\include{conclusion}
+\label{symbol:pi}
+
+\end{document}

@@ -1,0 +1,95 @@
+\chapter{Requirement Analysis}
+
+\section{Purpose}
+\par
+The purpose of this system is to build a configuration management and monitoring
+system that is dead simple to use. Highly efficient and feature rich
+configuration management systems such as Ansible exists. But the problem is that
+they have very steep learning curve. This is also the case with monitoring
+systems such as Nagios which require considerable amount of setup from the part
+of admins.\\
+
+The learning curve makes these systems unsuitable to small office environments,
+schools or colleges where the systems are managed by regular employees. NetDog
+is dead simple, with zero learning curve. As long as a person is aware of the
+command he/she wishes to execute on the remote machine, the person is ready to
+use NetDog.\\
+
+\section{Overall Description}
+\par
+NetDog has a client server architecture. The server is responsible for issuing
+commands to the clients and is to be used by the administrator of the network.
+The client application is to be run on machines on the network to be
+administered.\\
+
+After installing NetDog server or client on a machine, a unique public-private
+key pair for the machine is generated which is then used for uniquely
+identifying the machine and securing data transmission between the client and
+server.\\
+
+Once the server program is up and running, it listens on the port 1337 for
+connections from clients. Once the client program is up, it starts listening on
+port 1994. These ports serve dual purpose of facilitating communication and
+allowing the identification of server and clients from the rest of the machines
+on the network. Both NetDog server and client are daemons. They are system 
+services which remain in memory and automatically starts during system boot.\\
+
+When a client starts for the first time, it looks for active servers on the
+network. When it finds one, it starts the pairing procedure. During the pairing
+process, the client sends its hostname and public-key. The server in turn
+provides the client with it's public key. These keys are then used for
+identification and encrypted communication between machines.\\
+
+The client and server uses public key encryption to identify and secure the
+communication between them. The network admininstrator can issue commands from
+the server machine which will then be sent to all the clients on the network.
+A client can also contact the server occasionally, for example if the client
+detects undseriable network traffic or if the system is overheating.\\
+
+NetDog is capable of shutting down all the clients on the network at once by
+remotely executing the shutdown command. It is also able to power up systems
+which support remote Wake-On-LAN feature, by sending magic packets.\\
+
+\subsection{Product Functions}
+\begin{itemize}
+    \item Bring all computers on the network up and down remotely
+    \item Execute commands/scripts remotely on machines
+    \item Copy files to remote machines without third party protocols
+    \item Track and identify clients through IP changes
+    \item Secure client-server communication using public key encryption
+    \item List all machines on the network which are not clients (detect intruders)
+    \item Centralized logging of all data regarding clients
+    \item Web interface
+\end{itemize}
+
+\subsection{Hardware Requirements}
+\begin{itemize}
+    \item Intel Pentium IV or equivalent CPU
+    \item 512 MB or more RAM
+    \item 100 mbps Network Interface Card
+\end{itemize}
+
+\subsection{Software Requirements}
+\begin{itemize}
+    \item Linux
+    \item Python 3
+    \item pip
+\end{itemize}
+
+\section{Functional Requirements}
+The system is should be designed to accept communication requests from many
+clients at once. For this, a multi threaded server is necessary. Also, network
+outages can occur during the operation. The server should be resilient enough
+so that, it checks the status of the connection every once in a while and
+restarts the communication process once the network is up and running again.
+Also, the functions should extensively log themselves so that in case of a
+system failure, the culprit can be easily found.
+
+\section{Performance Requirements}
+The system would need a gigabit ethernet controller for the server to make sure
+that it can properly handle connections from multiple clients on the network.
+The client can work satisfactorily well even on old hardware such as a 10 mbit
+network card. There are no specific requirements for the CPU or the rest of the
+hardware. The machine must be powerful enough to run a recent version of Linux,
+which means any usable computing hardware would do.
+
