@@ -116,11 +116,14 @@ submitted By \\
 {\centering {\includegraphics[scale=.5]{2.jpg}}\par}
 \end{figure}
 
-\vspace{0.5cm}
-{\normalsize \bf {Department of Computer Applications}\\ 
+\vspace{0.3cm}
+{\normalsize \textbf {Department of Computer Applications}\\ 
 College of Engineering\\
 Trivandrum-695016}\\
-} 
+
+\vspace{0.3cm}
+\textbf {MAY 2017} \\
+}    
 
 \pagebreak
 \end{titlepage}
