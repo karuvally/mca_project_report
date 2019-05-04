@@ -90,9 +90,9 @@
 {\rm\bf NETDOG - CONFIGURATION MANAGEMENT AND MONITORING SYSTEM}\\
 
 \vspace{2cm}
-\bf \Large{A PROJECT REPORT}\\
+\normalsize {A PROJECT REPORT}\\
 
-\vspace{1cm}
+\vspace{0.5cm}
 \tt
 Submitted By \\
 \vspace{.5cm}
