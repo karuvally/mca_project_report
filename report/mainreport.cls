@@ -115,10 +115,9 @@ submitted By \\
 \begin{figure}[ht] 
 {\centering {\includegraphics[scale=.5]{2.jpg}}\par}
 \end{figure}
-\vspace{1cm}
 
-\vspace{1cm}
-{\bf Department of Computer Applications \\ 
+\vspace{0.5cm}
+{\normalsize \bf {Department of Computer Applications}\\ 
 College of Engineering\\
 Trivandrum-695016}\\
 } 
