@@ -48,7 +48,7 @@
 \fancypagestyle{plain}{
 \fancyfoot[C]{\thepage \changefont}
 \renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
 }
 
 % for setting up alternative directory paths to graphics files,
