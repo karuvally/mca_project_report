@@ -86,24 +86,18 @@
 \vspace*{0.7cm}
 {\centering     
 
-\huge
+\large
 {\rm\bf NETDOG - CONFIGURATION MANAGEMENT AND MONITORING SYSTEM}\\
 
-\vspace{1cm}
-\begin{figure}[ht] 
-{\centering {\includegraphics[scale=.5]{2.jpg}}\par}
-\end{figure}
-\vspace{1cm}
-\bf \Large{Mini Project 2018}\\
+\vspace{2cm}
+\bf \Large{A PROJECT REPORT}\\
 
 \vspace{1cm}
 \tt
-Done By \\
+Submitted By \\
 \vspace{.5cm}
 \rm
 {\normalsize \bf {ASWIN BABU K}}\\
-%{\normalsize \bf {student-name}}\\
-%{\normalsize \bf {student-name}}\\
 
 \vspace{1cm}
 {\tt{Guided By}} \\
