@@ -98,10 +98,12 @@ submitted By \\
 \rm
 {\normalsize \bf {ASWIN BABU K}}\\
 
-\vspace{0.5cm}
+\vspace{0.3cm}
 {\bf{to}} \\
 
-\vspace{0.5cm}
+\vspace{0.3cm}
+\normalsize{the APJ Abdul Kalam Technological University}\\
+\normalsize{in partial fullfilment of the requirements for the award of the degree}\\
 
 \vspace{1cm}
 {\bf Department of Computer Applications \\ 
