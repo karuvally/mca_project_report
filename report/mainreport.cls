@@ -105,6 +105,18 @@ submitted By \\
 \normalsize{the APJ Abdul Kalam Technological University}\\
 \normalsize{in partial fullfilment of the requirements for the award of the degree}\\
 
+\vspace{0.3cm}
+{\bf{of}} \\
+
+\vspace{0.3cm}
+\normalsize{Master of Computer Applications}\\
+
+\vspace{0.5cm}
+\begin{figure}[ht] 
+{\centering {\includegraphics[scale=.5]{2.jpg}}\par}
+\end{figure}
+\vspace{1cm}
+
 \vspace{1cm}
 {\bf Department of Computer Applications \\ 
 College of Engineering\\
