@@ -93,7 +93,6 @@
 \normalsize {A PROJECT REPORT}\\
 
 \vspace{0.5cm}
-\tt
 Submitted By \\
 \vspace{.5cm}
 \rm
