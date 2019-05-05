@@ -34,6 +34,7 @@
 \RequirePackage{amsmath}
 \RequirePackage{geometry}
 \RequirePackage{setspace}
+\RequirePackage{fmtcount}
 
 % disable page numbers from appearing before contents
 \pagenumbering{gobble}
@@ -123,7 +124,7 @@ College of Engineering\\
 Trivandrum-695016}\\
 
 \vspace{0.3cm}
-\normalsize {MAY 2017} \\
+\normalsize {JUNE 2019} \\
 }    
 
 \pagebreak
