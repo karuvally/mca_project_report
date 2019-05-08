@@ -1,12 +1,12 @@
 \chapter{Design And Implementation}
 
 \section{Overall Design}
-\par
+
 NetDog follows the client-server architecture. What this means is that, NetDog
 has both a client part and a server part. The server part is meant to be run
 on the machine used by the system administrator, while the client part runs
-on the rest of the machines on the network.\\
-
+on the rest of the machines on the network.
+\\\\
 Both the server and client listens for connections from each other, allowing
 the server to execute commands on clients and the client to report back any
 progress. But the server has an additional capability that the clients lack, an
@@ -14,6 +14,7 @@ easy to use web interface that can be used by the administrator to control the
 machines and configure the server.
 
 \section{User Interfaces}
+
 NetDog is a very easy to use system. One of the main aims while designing the
 system was to abstract as much lower level details of the system as possible
 from the user. There is no user interface for the client machines. All of the
@@ -22,6 +23,7 @@ interface and a very convinient web interface for administration. The whole
 system can be operated and configured from these interfaces.
 
 \section{Hardware Interfaces}
+
 The system tries hard not to reinvent the wheel. Thus, it uses existing Linux
 subsystems as much as possible. As a side effect, NetDog can work with any
 networking hardware supported by Linux. If the clients on the network can
@@ -29,6 +31,7 @@ succesfully communicate over the network using their network interface cards,
 you are good to go.
 
 \section{Communications Interfaces}
+
 The system uses the TCP/IP system for communication between server and clients.
 On top of TCP, the system uses a home grown higher level "NetDog" protocol for
 coordinating the client machine and servers. It is the NetDog protocol that
