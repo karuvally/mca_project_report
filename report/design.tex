@@ -74,10 +74,12 @@ contains.
 
 \subsection{Web Server}
 The webserver module provides the web interface for use by the administrator.
-Written using the bottle library, it resides in the file ``web\_interface.py''.
-The web server also uses the libgreen library extensively, to serve its clients.
-It is not directly invoked from the file, rather the contents of ``web\_server.py''
-is imported into ``netdog\_server.py'' and started as a separate thread.
+It resides in the file ``web\_interface.py''.The web server also uses the
+libgreen library extensively, to serve its clients. It is not directly invoked
+from the file, rather the contents of ``web\_server.py'' is imported into
+``netdog\_server.py'' and started as a separate thread. The web server was
+originally written in bottle, but has been completely re-written using Flask,
+giving it better performance and lot lesser bugs.
 
 \subsection{NetDog protocol}
 The NetDog client and server operates using the NetDog protocol. NetDog protocol
