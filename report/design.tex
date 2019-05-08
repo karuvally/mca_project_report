@@ -57,13 +57,11 @@ both the client module and the server module share the same underpinnings. All
 the functions they use are from a library called libgreen, that was built
 specifically for use in NetDog.
 
-% debug: include image
-
 \subsection{NetDog Server}
 The NetDog server module acts as the server. The server module resides in the
 file ``netdog\_server.py'' It uses functions part of the libgreen library to
-setup a server working on the netdog protocol.\\
-
+setup a server working on the netdog protocol.
+\\\\
 It listens for connections from clients on port 1337 and also provides the web
 interface. The server is completeley multithreaded and this allows it to
 perform tasks involving hundreds of machines at a surprisingly quick rate.
@@ -75,15 +73,13 @@ machines. The client module listens for connections from the server at port
 contains.
 
 \subsection{Web Server}
-\par
 The webserver module provides the web interface for use by the administrator.
-Written using the bottle library, it resides in the file ``web\_server.py''. The
-web server also uses the libgreen library extensively, to serve its clients. It
-is not directly invoked from the file, rather the contents of ``web\_server.py''
+Written using the bottle library, it resides in the file ``web\_interface.py''.
+The web server also uses the libgreen library extensively, to serve its clients.
+It is not directly invoked from the file, rather the contents of ``web\_server.py''
 is imported into ``netdog\_server.py'' and started as a separate thread.
 
 \subsection{NetDog protocol}
-\par
 The NetDog client and server operates using the NetDog protocol. NetDog protocol
 is a custom built protocol, that has been developed on top of the Sockets
 library part of standard Python installation. The mechanism as well as the
