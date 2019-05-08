@@ -34,8 +34,10 @@ connections from clients. Once the client program is up, it starts listening on
 port 1994. These ports serve dual purpose of facilitating communication and
 allowing the identification of server and clients from the rest of the machines
 on the network. Both NetDog server and client are daemons. They are system 
-services which remain in memory and automatically starts during system boot.\\
-
+services which remain in memory and automatically starts during system boot.
+They start even before a user logs into the system, ie. Netdog remains fully
+functional as long as the computer is powered on.
+\\\\
 When a client starts for the first time, it looks for active servers on the
 network. When it finds one, it starts the pairing procedure. During the pairing
 process, the client sends its hostname and public-key. The server in turn
