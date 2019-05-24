@@ -94,7 +94,7 @@
 \normalsize {A PROJECT REPORT}\\
 
 \vspace{0.5cm}
-submitted By \\
+Submitted by \\
 \vspace{.5cm}
 \rm
 {\normalsize \bf {ASWIN BABU K}}\\
