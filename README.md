@@ -24,7 +24,7 @@ directory and upload it to Overleaf.
 
 ## Authors
 
-* **Jain Basil Alias ** - *Initial work*
+* **Jain Basil Alias** - *Initial work*
 * **Anoop Toffy** - *Initial work*
 * **Aswin Babu Karuvally** - *updation to KTU spec*
 
